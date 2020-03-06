@@ -1,0 +1,9 @@
+; config file
+
+; database
+DB_HOST=localhost
+DB_USERNAME=lez
+DB_PASSWORD=lez
+DB_NAME=lez
+
+CONTROLLERS_NAMESPACE=App\Controllers\

@@ -1,0 +1,22 @@
+{
+    "name": "laetitia/personnal",
+    "description": "This is my framework PHP",
+    "type": "personnal project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LaetitiaElbaz",
+            "email": "laetitiaelbaz.web@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.0",
+        "benoclock/alto-dispatcher": "^1.0",
+        "altorouter/altorouter": "^1.2"
+    },
+    "autoload": {
+        "psr-4": { 
+            "App\\": "app/"
+        }
+    }
+}
